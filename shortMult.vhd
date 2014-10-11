@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 entity sm is
 	generic (
 		constant DATA_WIDTH:		integer := 32;
-		constant TRUNCATED_BITS:	integer := 27
+		constant TRUNCATED_BITS:	integer := 25
 	);
 	port (
 		A:	in std_logic_vector(DATA_WIDTH-1 downto 0);
