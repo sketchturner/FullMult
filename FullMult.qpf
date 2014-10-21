@@ -15,9 +15,10 @@
 
 
 QUARTUS_VERSION = "8.1"
-DATE = "20:30:23  January 26, 2014"
+DATE = "16:01:31  October 12, 2014"
 
 
 # Revisions
 
 PROJECT_REVISION = "fm"
+PROJECT_REVISION = "FullMult"

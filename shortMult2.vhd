@@ -3,8 +3,11 @@ use ieee.std_logic_1164.all;
 
 entity sm2 is
 	generic (
-		constant DATA_WIDTH:		integer := 32;
-		constant TRUNCATED_BITS:	integer := 25
+		constant DATA_WIDTH:		integer := 
+32
+;
+		constant TRUNCATED_BITS:	integer := 
+27
 	);
 	port (
 		A:	in std_logic_vector(DATA_WIDTH-1 downto 0);

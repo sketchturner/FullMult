@@ -3,8 +3,9 @@ use ieee.std_logic_1164.all;
 
 entity fm2 is
 	generic (
-		constant DATA_WIDTH: integer:= 32
-	);
+		constant DATA_WIDTH: integer:= 
+32
+);
 	port (
 		A:	in std_logic_vector(DATA_WIDTH-1 downto 0);
 		B:	in std_logic_vector(DATA_WIDTH-1 downto 0);
